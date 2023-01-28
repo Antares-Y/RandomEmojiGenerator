@@ -1,0 +1,50 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-family: 'Unbounded', cursive;
+}
+
+body {
+    background: salmon;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: aliceblue;
+    margin: 20px;
+}
+
+.emoji-name {
+    margin: 10px;
+    font-weight: 600;
+    color: blue;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    font-size: 5rem;
+    border: none;
+    padding: 15px;
+    background: rgb(255, 255, 255, .2);
+    border-radius: 10px;
+    filter: grayscale();
+    transition: filter 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: grayscale(0);
+}
